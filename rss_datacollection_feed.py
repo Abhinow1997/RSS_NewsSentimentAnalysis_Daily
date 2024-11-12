@@ -82,7 +82,7 @@ def main():
 
     # Save to CSV with date stamp
     today = date.today().strftime("%Y-%m-%d")
-    filename = f"news_data_{today}.csv"
+    filename = f"news_data.csv"
     df_combined.to_csv(filename, index=False)
     print(f"Data saved to {filename}")
 
