@@ -20,7 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests pandas vaderSentiment
+        pip install -r requirements.txt
 
     - name: Run data collection script
       run: python rss_datacollection_feed.py
