@@ -23,7 +23,7 @@ jobs:
         pip install requests pandas vaderSentiment
 
     - name: Run data collection script
-      run: rss_datacollection_feed.py
+      run: python rss_datacollection_feed.py
 
     - name: Commit and push if changed
       run: |
