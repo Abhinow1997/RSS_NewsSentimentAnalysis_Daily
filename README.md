@@ -1,6 +1,6 @@
 # RSS News Sentiment Analysis Dashboard
 
-
+![NewsSentimentFlow-Page-2](https://github.com/user-attachments/assets/6d8f6b25-4c24-4723-b942-83fd67fe035d)
 
 ## Overview
 
@@ -70,5 +70,5 @@ The data is automatically updated daily through a GitHub Actions workflow. This 
 
 ## Dashboard Access
 
-The live dashboard can be accessed at (link)[https://rssnewssentimentanalysisdaily.streamlit.app].
+The live dashboard can be accessed at : [Link](https://rssnewssentimentanalysisdaily.streamlit.app)
 ---
