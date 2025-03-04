@@ -1,8 +1,6 @@
 name: Daily RSS_NewsData Collection
 
 on:
-  schedule:
-    - cron: '0 2 * * *'
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
